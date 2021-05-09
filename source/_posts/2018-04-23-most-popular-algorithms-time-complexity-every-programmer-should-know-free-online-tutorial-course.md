@@ -406,15 +406,15 @@ This algorithm has a cubic running time: `O(n^3)`.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cCPOayp1vek?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Logarithmic time complexities usually apply to algorithms that divide problems in half every time. For instance, let's say that we want to look for a book in a dictionary. As you know, this book has every word sorted alphabetically. If you are looking for a word, then there are at least two ways to do it:
+Logarithmic time complexities usually apply to algorithms that divide problems in half every time. For instance, let's say that we want to look for a word in a dictionary. As you know, this dictionary has every word sorted alphabetically. If you are looking for a word, then there are at least two ways to do it:
 
 Algorithm A:
 
-1. Start on the first page of the book and go word by word until you find what you are looking for.
+1. Start on the first page of the dictionary and go word by word until you find what you are looking for.
 
 Algorithm B:
 
-1. Open the book in the middle and check the first word on it.
+1. Open the dictionary in the middle and check the first word on it.
 1. If the word you are looking for is alphabetically more significant, then look to the right. Otherwise, look in the left half.
 1. Divide the remainder in half again, and repeat step #2 until you find the word you are looking for.
 
